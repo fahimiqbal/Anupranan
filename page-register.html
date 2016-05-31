@@ -647,7 +647,21 @@
 					</div>
 
 				</div>
+                                <script type="text/javascript">
 
+                                        /**
+                                                Checkbox on "I agree" modal Clicked!
+                                        **/
+                                        jQuery("#terms-agree").click(function(){
+                                                jQuery('#termsModal').modal('toggle');
+
+                                                // Check Terms and Conditions checkbox if not already checked!
+                                                if(!jQuery("#checked-agree").checked) {
+                                                        jQuery("input.checked-agree").prop('checked', true);
+                                                }
+
+                                        });
+                                </script>
 				<div class="copyright">
 					<div class="container">
 						<ul class="pull-right nomargin list-inline mobile-block">
@@ -684,25 +698,7 @@
 		<script type="text/javascript" src="assets/plugins/jquery/jquery-2.1.4.min.js"></script>
 
 		<script type="text/javascript" src="assets/js/scripts.js"></script>
-		
-		<!-- STYLESWITCHER - REMOVE -->
-		<script async type="text/javascript" src="assets/plugins/styleswitcher/styleswitcher.js"></script>
-
 		<!-- PAGE LEVEL SCRIPTS -->
-		<script type="text/javascript">
-
-			/**
-				Checkbox on "I agree" modal Clicked!
-			**/
-			jQuery("#terms-agree").click(function(){
-				jQuery('#termsModal').modal('toggle');
-
-				// Check Terms and Conditions checkbox if not already checked!
-				if(!jQuery("#checked-agree").checked) {
-					jQuery("input.checked-agree").prop('checked', true);
-				}
-				
-			});
-		</script>
+		
 	</body>
 </html>
