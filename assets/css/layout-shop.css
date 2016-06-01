@@ -130,7 +130,8 @@ div.shop-item {
 }
 div.shop-item .shop-item-buttons a.btn-default {
 	border:0;
-	background-color:rgba(0,0,0,0.1);
+	background-color:#77298f;
+        color: #fff;
 }
 div.shop-item .shop-item-buttons a.btn-default:hover {
 	border:0;
@@ -573,7 +574,7 @@ section.dark .shop-compare-title {
 }
 
 .cartContent .item {
-	margin-top:-1px;
+	/*margin-top:-1px;*/
 	border:rgba(0,0,0,0.05) 1px solid;
 }
 .cartContent .sky-form.boxed {
