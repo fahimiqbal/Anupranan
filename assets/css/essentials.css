@@ -3600,7 +3600,8 @@ a.social-icon.social-icon-transparent:hover>i {
 	font-size:17px;
 	line-height:34px;
     text-align: center;
-    background-color: rgba(0,0,0,0.1);
+    background-color: #77298f;
+    color: #fff;
 }
 .btn.btn-reveal span {
     display: inline-block;
@@ -11059,7 +11060,7 @@ div.side-nav ul>li {
 	background-color:transparent !important;
 }
 
-div.side-nav ul>li:before {
+/*div.side-nav ul>li:before {
 	content: "\f105";
 	font-family: FontAwesome;
 	position: absolute;
@@ -11067,7 +11068,7 @@ div.side-nav ul>li:before {
 	left: 0;
 	top: 4px;
 	color: #999;
-}
+}*/
 	div.side-nav ul.list-group-noicon>li:before,
 	div.side-nav ul.list-group-noicon>li>ul>li:before {
 		content:'';
@@ -11567,7 +11568,7 @@ section.dark .radio input + i:after {
 	background-color:rgba(255,255,255,8);	
 }
 .checkbox input + i:after {
-	color: rgba(0,0,0,8);
+	color: #77298f;
 }
 section.dark .checkbox input + i:after {
 	color: rgba(255,255,255,8);
