@@ -7439,10 +7439,15 @@ i.ico-hover-dark:hover {
 	color:#fff !important;
 	background-color:#111 !important;
 }
-i.ico-color.ico-hover:hover {
+/*i.ico-color.ico-hover:hover {
 	background-color:#212121;
 }
-
+*/
+i.ico-color.ico-hover:hover {
+    background-color: #ffffff;
+    border: 1px solid #77298f;
+    color: #77298f;
+}
 i.ico-xs {
 	width:30px; height:30px;
 	line-height: 30px;
