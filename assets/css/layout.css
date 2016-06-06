@@ -43,7 +43,7 @@
 		Footer
 		Responsive
 		DEMO ONLY [remove on production]
-*************************************************** **/
+*************************************************** **
 
 
 
@@ -7822,6 +7822,19 @@ section.page-header {
     position: relative;
     transition: all 0s ease 0s;
 }
+.price-text-color{
+    color: #8ab933 !important;
+}
+.tk label{
+    font-weight: normal !important;
+}
+.label-warning{
+    background-color: #77298f;
+}
+.button-width{
+    width: 0px;
+}
+
 @media (max-width: 800px) {
 
         .display-none{

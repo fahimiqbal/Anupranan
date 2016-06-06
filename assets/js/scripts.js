@@ -827,7 +827,7 @@
 					}
 
 					var defaults = {
-						items: 					5,
+						items: 				4,
 						itemsCustom: 			false,
 						itemsDesktop: 			[1199,4],
 						itemsDesktopSmall: 		[980,3],
